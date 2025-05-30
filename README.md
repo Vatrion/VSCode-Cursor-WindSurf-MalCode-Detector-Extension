@@ -13,14 +13,6 @@ This IDE extension helps detect potentially malicious commands and Unicode obfus
     -   **Mixed Scripts**: Highlights lines with characters from multiple scripts (e.g., Latin and Cyrillic).
 -   **Configurable**: Customize deny list paths and toggle real-time scanning through VS Code settings.
 
-## Installation (from VS Code Marketplace)
-
-1.  Open Visual Studio Code.
-2.  Go to the Extensions view by clicking on the square icon in the sidebar or pressing `Ctrl+Shift+X` (`Cmd+Shift+X` on macOS).
-3.  Search for "MalCode Detector for VSCode-Cursor-Windsurf IDE".
-4.  Click "Install" on the extension published by "Vatrion".
-5.  The extension will be activated automatically.
-
 ## Usage
 
 Once installed, the "Cursor Deny List Malcode Detector" works in the background:
