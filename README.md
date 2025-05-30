@@ -31,19 +31,6 @@ You can configure the extension via VS Code settings (File > Preferences > Setti
     -   **Type**: `boolean`
     -   **Default**: `true`
 
--   **`malcode-detector-vscode-cursor-windsurf-ide.denyListPaths`**: 
-    -   **Description**: Paths to the deny list JSON files, relative to the extension's root directory. You can customize these paths if you have your own deny lists or a different directory structure.
-    -   **Type**: `object`
-    -   **Default**:
-        ```json
-        {
-          "windows": "deny_lists/windows_deny_list.json",
-          "macos": "deny_lists/macos_deny_list.json",
-          "linux": "deny_lists/linux_deny_list.json",
-          "universal": "deny_lists/universal_deny_list.json"
-        }
-        ```
-
 -   **`malcode-detector-vscode-cursor-windsurf-ide.ignoredFiles`**:
     -   **Description**: A list of file paths (relative to the workspace root) to be ignored by the MalCode Detector. Files in this list will not be scanned. You can manually edit this list or use the "Ignore This File (MalCode Detector)" command from the explorer context menu.
     -   **Type**: `array`
